@@ -5,15 +5,15 @@
 
 ## Team Name
 Name  
-
+CodingTitans
 # Team Member
 Member 1 Github Link
-
+Hari Krishnan 
 MEmber 2 Github Link
-
+Angel Raphael
 ## Idea
 Breif Idea in two three sentences 
-
+A website providing details and services of sports department. 
 ## Features 
 1. 
 
