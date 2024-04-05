@@ -1,12 +1,17 @@
 body {
     font-family: Arial, sans-serif;
+    color: rgb(253, 252, 245);
     margin: 0;
     padding: 0;
+    background-image: url('images/depositphotos_52115347-stock-photo-sport-equipment-and-balls.jpg');
+    /* You can adjust other background properties as needed */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
 }
 
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: #e7afaf;
+    color: #ae2626;
     padding: 20px;
 }
 
@@ -31,7 +36,7 @@ section {
 }
 
 footer {
-    background-color: #333;
+    background-color: #aa7a7a;
     color: #fff;
     padding: 10px;
     position: fixed;
@@ -39,18 +44,11 @@ footer {
     width: 100%;
     text-align: center;
 }
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-image: url('C:\Users\dell\webpage dev\Dsolve-2024\images\depositphotos_52115347-stock-photo-sport-equipment-and-balls.jpg'); /* Replace 'background-image.jpg' with the path to your image */
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 
 header {
-    background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent black overlay to make text readable */
-    color: #ae4b4b;
+    background-color: rgba(203, 195, 195, 0.5); /* Adding a semi-transparent black overlay to make text readable */
+    color: #8673c0;
     padding: 20px;
 }
 
@@ -75,7 +73,7 @@ section {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent black overlay to make text readable */
+    background-color: rgba(196, 134, 134, 0.5); /* Adding a semi-transparent black overlay to make text readable */
     color: #d88383;
     padding: 10px;
     position: fixed;
