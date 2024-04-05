@@ -9,6 +9,7 @@ header {
     padding: 20px;
     text-align: center;
 }
+
 nav {
     text-align: center;
     margin-top: 20px;
@@ -22,6 +23,7 @@ nav button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    width: 25%;
 }
 nav button:hover {
     background-color: #0056b3;
