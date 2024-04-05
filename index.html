@@ -1,40 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section id="home">
-        <h2>Home</h2>
-        <p>This is the home page for CET SPORTS .</p>
-    </section>
-
-    <section id="about">
-        <h2>About</h2>
-        <p>This gives information about cet sports .</p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Contact me through email: example@example.com</p>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+    <h1>Sports Registration</h1>
+    <form id="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="department">Department:</label>
+        <input type="text" id="department" name="department" required><br>
+        <label for="sport">Sport:</label>
+        <select id="sport" name="sport" required>
+            <option value="badminton">Badminton</option>
+            <option value="cricket">Cricket</option>
+            <option value="table_tennis">Table Tennis</option>
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+        </select><br>
+        <button type="submit">Register</button>
+    </form>
+    <div id="equipment">
+        <h2>Available Equipment</h2>
+        <p>Badminton Rackets: <span id="badminton_rackets">10</span></p>
+        <p>Shuttles: <span id="shuttles">20</span></p>
+        <p>Cricket Bats: <span id="cricket_bats">5</span></p>
+        <p>Cricket Balls: <span id="cricket_balls">10</span></p>
+        <p>Volleyballs: <span id="volleyballs">5</span></p>
+        <p>Footballs: <span id="footballs">5</span></p>
+    </div>
+    <script src="server.js"></script>
+    <script src="firebase.js"></script>
 </body>
 </html>
