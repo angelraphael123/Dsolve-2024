@@ -20,7 +20,7 @@ A website providing details and services of sports department.it have digitalise
 3. shows which sports can be played now.
 ## Link to product walkthrough
 [link to video](Link Here)
-https://youfiles.herokuapp.com/videodictionary/?m=Video_Player_Drive&state=%7B%22ids%22:%5B%221UaRAXrfMI4gof1c5TDtEys-udOO7hr1X%22%5D,%22action%22:%22open%22,%22resourceKeys%22:%7B%7D%7D#google_vignette
+https://drive.google.com/file/d/1UaRAXrfMI4gof1c5TDtEys-udOO7hr1X/view?usp=drive_link
    
 ## Libraries used
 Library Name - Version
