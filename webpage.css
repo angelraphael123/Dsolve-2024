@@ -1,7 +1,12 @@
 body {
     font-family: Arial, sans-serif;
+    color: rgb(253, 252, 245);
     margin: 0;
     padding: 0;
+    background-image: url('images/depositphotos_52115347-stock-photo-sport-equipment-and-balls.jpg');
+    /* You can adjust other background properties as needed */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background */
 }
 header {
     background-color: #333;

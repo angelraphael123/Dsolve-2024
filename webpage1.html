@@ -45,17 +45,17 @@
     </style>
 </head>
 <body>
-    <form id="dataForm" action="https://script.google.com/macros/s/your_google_script_id/exec" method="post">
+    <form id="dataForm" action="redirectToAnotherPage()" method="post">
         <input type="text" name="name" placeholder="Your Name" required><br>
-        <input type="text" name="email" placeholder="Your Email" required><br>
-        <input type="text" name="message" placeholder="Your Message" required><br>
+        <input type="text" name="email" placeholder="Your Department" required><br>
+        <input type="text" name="message" placeholder="Your Admission number" required><br>
         <input type="submit" value="Submit">
     </form>
 
     <script>
         // Function to redirect to another webpage
         function redirectToAnotherPage() {
-            window.location.href = "webpage.html";
+            window.location.href = "sample.html";
         }
 
         // Handling form submission
@@ -69,10 +69,10 @@
             var xhr = new XMLHttpRequest();
             xhr.open("POST", this.action, true);
             xhr.onload = function() {
-                if (xhr.status === 200) {
+               // if (xhr.status === 200) {
                     // Redirect to another page upon successful submission
                     redirectToAnotherPage();
-                }
+                //}
             };
             xhr.send(formData);
         });
